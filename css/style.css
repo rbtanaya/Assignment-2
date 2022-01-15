@@ -1,0 +1,137 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/* common styles */
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0px 50px;
+}
+h1 {
+  font-size: 52px;
+}
+h2 {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 100px;
+}
+h3 {
+  font-size: 38px;
+  color: #0a0826;
+  margin-top: 0px;
+}
+h4 {
+  font-size: 28px;
+  color: #18191f;
+}
+h5 {
+  font-size: 24px;
+}
+button {
+  background-color: #e02c6d;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 35px;
+}
+button a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* headera-area */
+.header-area {
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  margin-top: 30px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #3a3a3a;
+}
+
+/* banner-area */
+.banner-area {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.banner-content {
+  margin-top: 30px;
+}
+.banner-content p {
+  font-size: 16px;
+  color: #3a3a3a;
+  line-height: 2em;
+}
+.banner-img img {
+  position: absolute;
+}
+.camera-img img {
+  position: relative;
+  top: 30px;
+}
+
+/* sponsor-area */
+.sponsor-area {
+  margin-top: 100px;
+}
+.sponsor-area ul {
+  display: flex;
+  justify-content: space-around;
+  border-top: 3px solid #e3e3e3;
+  border-bottom: 3px solid #e3e3e3;
+  padding: 30px 0px 20px 0px;
+}
+
+.sponsor-area ul li {
+  list-style: none;
+}
+
+/* product-area */
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #fafafa;
+  padding: 20px;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 17px -2px #e3e3e3;
+}
+.single-product {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.single-product img {
+  width: 100%;
+}
+.sin i.fas.fa-star,
+.fas.fa-star-half-alt {
+  color: orange;
+}
+.single-product p {
+  color: #787885;
+  font-size: 14px;
+}
+
+/* brand-promoter */
+.brand-promoter {
+  margin-top: 100px;
+  display: flex;
+}
+
+.brand-promotion-content {
+  margin-left: 50px;
+  color: #6c6c6c;
+}
