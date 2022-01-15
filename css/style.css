@@ -4,6 +4,9 @@
 /* common styles */
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.body-wrapper {
   padding: 0px 50px;
 }
 h1 {
@@ -25,6 +28,14 @@ h4 {
 }
 h5 {
   font-size: 24px;
+}
+h6 {
+  font-size: 22px;
+  color: #ffffff;
+  text-align: center;
+}
+a {
+  text-decoration: none;
 }
 button {
   background-color: #e02c6d;
@@ -75,9 +86,17 @@ nav ul li a {
 .banner-img img {
   position: absolute;
 }
+.camera-img {
+}
 .camera-img img {
   position: relative;
   top: 30px;
+  transition-duration: 5s;
+}
+.camera-img img:hover {
+  width: 500px;
+  transform: rotateY(60deg);
+  transform-style: preserve-3d;
 }
 
 /* sponsor-area */
@@ -107,6 +126,7 @@ nav ul li a {
   grid-row-gap: 30px;
   border-radius: 10px;
   box-shadow: 0px 0px 17px -2px #e3e3e3;
+  margin-top: 50px;
 }
 .single-product {
   padding: 20px;
@@ -124,6 +144,11 @@ nav ul li a {
   color: #787885;
   font-size: 14px;
 }
+.see-more a {
+  margin-top: 30px;
+  float: right;
+  color: #e02c6d;
+}
 
 /* brand-promoter */
 .brand-promoter {
@@ -134,4 +159,26 @@ nav ul li a {
 .brand-promotion-content {
   margin-left: 50px;
   color: #6c6c6c;
+}
+
+/* footer */
+footer {
+  background-color: #0a0826;
+  padding: 20px 0 40px 0;
+  margin-top: 50px;
+}
+footer p {
+  color: #ffffff;
+  text-align: center;
+}
+.social-icons ul {
+  display: flex;
+  justify-content: center;
+}
+.social-icons ul li {
+  list-style: none;
+}
+.social-icons ul li a {
+  color: #ffffff;
+  margin-right: 15px;
 }
