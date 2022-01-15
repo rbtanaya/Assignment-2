@@ -86,8 +86,7 @@ nav ul li a {
 .banner-img img {
   position: absolute;
 }
-.camera-img {
-}
+
 .camera-img img {
   position: relative;
   top: 30px;
@@ -181,4 +180,59 @@ footer p {
 .social-icons ul li a {
   color: #ffffff;
   margin-right: 15px;
+}
+
+/* Media Queries */
+/* Mobile Devices */
+@media only screen and (max-width: 688px) {
+  .header-area,
+  .banner-area {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+  .logo {
+    text-align: center;
+  }
+  .banner-content {
+    margin-top: 0px;
+  }
+  .banner-image img {
+    width: 80%;
+  }
+  .sponsor-area ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+  .sponsor-area ul li {
+    text-align: center;
+  }
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .single-product {
+    flex-direction: column;
+  }
+  .brand-promoter img {
+    width: 100%;
+  }
+  .brand-promoter {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Tablet Devices */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .brand-promoter img {
+    width: 100%;
+  }
+  .brand-promoter {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
